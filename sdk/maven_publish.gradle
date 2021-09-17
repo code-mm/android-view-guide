@@ -1,0 +1,13 @@
+apply plugin: "maven-publish"
+afterEvaluate {
+    publishing {
+        publications {
+            release(MavenPublication) {
+                from components.release
+                groupId "com.shuangyangad"
+                artifactId = rootProject.name
+                version = "1.0.0.0"
+            }
+        }
+    }
+}

@@ -174,6 +174,7 @@ public class Guide implements View.OnKeyListener, View.OnTouchListener {
             overlay = (ViewGroup) activity.getWindow().getDecorView();
         }
         MaskView maskView = new MaskView(activity);
+
         maskView.setFullingColor(activity.getResources().getColor(mConfiguration.mFullingColorId));
         maskView.setFullingAlpha(mConfiguration.mAlpha);
         maskView.setHighTargetCorner(mConfiguration.mCorner);
