@@ -35,7 +35,7 @@ public class MainActivity extends Activity {
     public void showGuideView() {
         GuideBuilder builder = new GuideBuilder();
         builder.setTargetView(imageView)
-                .setHighTargetGraphStyle(Component.CIRCLE)
+                .setHighTargetGraphStyle(Component.FIT_END)
                 .setHighTargetPadding(30)
                 .setAlpha(150);
         builder.setOnVisibilityChangedListener(new GuideBuilder.OnVisibilityChangedListener() {

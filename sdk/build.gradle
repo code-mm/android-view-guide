@@ -22,3 +22,5 @@ dependencies {
     implementation 'androidx.annotation:annotation:1.0.0'
 
 }
+
+apply from: "./maven_publish.gradle"

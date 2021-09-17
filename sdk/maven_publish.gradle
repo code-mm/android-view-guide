@@ -5,7 +5,7 @@ afterEvaluate {
             release(MavenPublication) {
                 from components.release
                 groupId "com.shuangyangad"
-                artifactId = rootProject.name
+                artifactId = "android-view-guide"
                 version = "1.0.0.0"
             }
         }
